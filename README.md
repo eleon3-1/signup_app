@@ -1,5 +1,8 @@
 # signup_app
 
+# Eduardo Leon
+# Solo 
+
 A new Flutter project.
 
 2. Why must the app keep form validation local even when it can ask an AI for a tip? Give one example of a bad decision if AI were allowed to approve signup
