@@ -13,3 +13,4 @@ The app needs local validators so that it checks the required fields constantly.
 
 The local error and retry test did not need any changes to the implementation. When i tapped retry after the simulated error the app displayed a tip. This shows that the feature can recover from an error correctly and successfully. 
 
+I made a feature for the preset-tip signup screen inclusing the loading of the indicator , a simulated error and the rerey button. Added a controller cleanup and tested the forms for its validation ,the success message when in the input was successful and a tip. The password_help is a fixed name that acts as a lookup. The app looks for that in the _PresentTips map and gets its matching message. it then puts that message in the TipText to display it on the screen for the user without reading the users name or information. 
